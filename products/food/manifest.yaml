@@ -1,0 +1,34 @@
+product_id: FOOD_BR
+working_name: Food / Confeitaria OS
+market: BR
+locale: pt-BR
+currency: BRL
+commercial_model: one_time_purchase
+status: planned_follow_on
+modules:
+  - CORE
+  - CRM
+  - JOB
+  - FINANCE
+  - DASHBOARD
+  - CATALOG
+  - ORDER
+  - JOB_LINES
+  - BOM
+  - INVENTORY
+  - PURCHASE
+  - UNITS
+  - RECIPE
+  - FOOD_COSTING
+  - RECIPE_CONVERSION
+mobile:
+  phase: per_product_requirement
+  required_at_launch: undecided
+  required_actions: []
+  ready_from_v1: true
+integrations:
+  required: []
+  optional: []
+notes:
+  - Ingredient-specific volume/mass conversions may be required.
+  - Do not implement nutrition or food-safety compliance in V1.

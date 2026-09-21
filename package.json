@@ -1,0 +1,14 @@
+{
+  "name": "microbizsys-ugc",
+  "version": "1.0.0-beta.2",
+  "private": true,
+  "scripts": {
+    "build": "node tools/build.cjs",
+    "test": "node --test tests/*.test.cjs",
+    "preview": "node tools/preview.cjs",
+    "deploy:google": "node tools/deploy.cjs"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.8"
+  }
+}

@@ -1,0 +1,31 @@
+product_id: PERSONALIZADOS_BR
+working_name: Personalizados OS
+market: BR
+locale: pt-BR
+currency: BRL
+commercial_model: one_time_purchase
+status: reference_build_wave_1
+modules:
+  - CORE
+  - CRM
+  - JOB
+  - FINANCE
+  - DASHBOARD
+  - CATALOG
+  - ORDER
+  - JOB_LINES
+  - BOM
+  - INVENTORY
+  - PURCHASE
+  - FULFILLMENT
+mobile:
+  phase: per_product_requirement
+  required_at_launch: undecided
+  required_actions: []
+  ready_from_v1: true
+integrations:
+  required: []
+  optional: []
+notes:
+  - No marketplace live sync in V1.
+  - Keep production/fulfillment simple.

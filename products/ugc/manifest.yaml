@@ -1,0 +1,36 @@
+product_id: UGC_BR
+working_name: UGC OS
+market: BR
+locale: pt-BR
+currency: BRL
+commercial_model: one_time_purchase
+status: beta_owner_validation
+product_version: 1.0.0-beta.2
+schema_version: 2
+modules:
+  - CORE
+  - CRM
+  - JOB
+  - FINANCE
+  - DASHBOARD
+  - CAMPAIGN
+  - DELIVERABLE
+  - RIGHTS
+  - CREATOR_ECONOMICS
+mobile:
+  phase: per_product_requirement
+  required_at_launch: true
+  validation_surface: owner_only_apps_script_web_app
+  live_device_verified: false
+  required_actions:
+    - view_deliverables_and_campaign_details
+    - update_deliverable_status_and_actual_hours
+    - record_payment
+    - record_expense
+  ready_from_v1: true
+integrations:
+  required: []
+  optional: []
+notes:
+  - No social-platform analytics in V1.
+  - Minimize Google authorization scopes.

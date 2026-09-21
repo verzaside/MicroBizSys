@@ -1,0 +1,34 @@
+product_id: MAQUETE_BR
+working_name: Maquete OS
+market: BR
+locale: pt-BR
+currency: BRL
+commercial_model: one_time_purchase
+status: reference_build_wave_1
+modules:
+  - CORE
+  - CRM
+  - JOB
+  - FINANCE
+  - DASHBOARD
+  - QUOTE
+  - PROJECT
+  - SCOPE
+  - TASKS
+  - MILESTONES
+  - BOM
+  - PURCHASE
+  - LABOR
+  - CHANGE
+  - PROJECT_COST
+mobile:
+  phase: per_product_requirement
+  required_at_launch: undecided
+  required_actions: []
+  ready_from_v1: true
+integrations:
+  required: []
+  optional: []
+notes:
+  - Real-world validation should emphasize quoted vs actual economics.
+  - Architecture must remain reusable for woodworking/project niches.
